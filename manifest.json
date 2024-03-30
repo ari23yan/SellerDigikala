@@ -1,0 +1,21 @@
+{
+    "name": "Digi Downloader",
+    "version": "1.0.0",
+    "description": "Seller Digikala Downloader",
+    "manifest_version": 2,
+    "author": "Ari23yan",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+      },
+      "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Seller Digikala Downloader"
+      },
+      "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+    
+}
